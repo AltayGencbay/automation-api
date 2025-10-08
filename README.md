@@ -26,12 +26,12 @@ api_tests/
 
 The tests hit the public sandbox API and may intermittently fail if the service is unreachable. Each test logs requests and responses to help troubleshooting.
 
-## HTML raporu oluşturma
+## Generating an HTML Report
 
-Konsoldan takip etmek yerine pytest-html eklentisiyle çıktı almak için aşağıdaki komutu çalıştırın:
+Instead of monitoring the results in the console, you can generate an output using the pytest-html plugin by running the following command:
 
 ```
 pytest -sv --html=reports/petstore.html
 ```
 
-Komut tamamlandığında `reports/petstore.html` dosyasını tarayıcıda açarak detaylı test raporunu görüntüleyebilirsiniz.
+Once the command completes, open the reports/petstore.html file in your browser to view the detailed test report.
